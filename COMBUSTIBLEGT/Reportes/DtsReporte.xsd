@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DtsReporte" targetNamespace="http://tempuri.org/DtsReporte.xsd" xmlns:mstns="http://tempuri.org/DtsReporte.xsd" xmlns="http://tempuri.org/DtsReporte.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DtsReporte" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DtsReporte" msprop:Generator_UserDSName="DtsReporte">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REPORTE_DESPACHOS" msprop:Generator_TableClassName="REPORTE_DESPACHOSDataTable" msprop:Generator_TableVarName="tableREPORTE_DESPACHOS" msprop:Generator_TablePropName="REPORTE_DESPACHOS" msprop:Generator_RowDeletingName="REPORTE_DESPACHOSRowDeleting" msprop:Generator_RowChangingName="REPORTE_DESPACHOSRowChanging" msprop:Generator_RowEvHandlerName="REPORTE_DESPACHOSRowChangeEventHandler" msprop:Generator_RowDeletedName="REPORTE_DESPACHOSRowDeleted" msprop:Generator_UserTableName="REPORTE_DESPACHOS" msprop:Generator_RowChangedName="REPORTE_DESPACHOSRowChanged" msprop:Generator_RowEvArgName="REPORTE_DESPACHOSRowChangeEvent" msprop:Generator_RowClassName="REPORTE_DESPACHOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BOMBA" msprop:Generator_ColumnVarNameInTable="columnBOMBA" msprop:Generator_ColumnPropNameInRow="BOMBA" msprop:Generator_ColumnPropNameInTable="BOMBAColumn" msprop:Generator_UserColumnName="BOMBA" type="xs:string" minOccurs="0" />
+              <xs:element name="PRECIO" msprop:Generator_ColumnVarNameInTable="columnPRECIO" msprop:Generator_ColumnPropNameInRow="PRECIO" msprop:Generator_ColumnPropNameInTable="PRECIOColumn" msprop:Generator_UserColumnName="PRECIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CANTIDAD" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD" msprop:Generator_ColumnPropNameInRow="CANTIDAD" msprop:Generator_ColumnPropNameInTable="CANTIDADColumn" msprop:Generator_UserColumnName="CANTIDAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

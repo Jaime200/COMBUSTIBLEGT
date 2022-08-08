@@ -1,0 +1,39 @@
+﻿@model ENTIDADES.BOMBA
+
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<h1>Detalle</h1>
+
+<div>
+    <h4>bomba dispensadora</h4>
+    <hr />
+    <div class="form-group">
+        <a class="btn btn-outline-primary" asp-action="Index"> <i class="fas fa-arrow-alt-circle-left"></i> Regresar</a>
+        <a class="btn btn-outline-info" asp-action="Edit" asp-route-id="@Model.ID_BOMBA">  <i class="fas fa-edit"></i> Editar</a>
+    </div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DESCRIPCION)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ESTADO)
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.ESTADO == "A")
+            {
+                <label><i class="fas fa-circle" style="color:green" title="Inactivo"></i> Activo</label>
+            }
+            else
+            {
+
+                <label><i class="fas fa-circle" style="color:red" title="Inactivo"></i> Inactivo</label>
+            }
+        </dd>
+    </dl>
+</div>

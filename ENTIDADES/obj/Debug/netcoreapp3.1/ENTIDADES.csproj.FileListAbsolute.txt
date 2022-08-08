@@ -1,0 +1,10 @@
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\bin\Debug\netcoreapp3.1\ENTIDADES.deps.json
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\bin\Debug\netcoreapp3.1\ENTIDADES.dll
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\bin\Debug\netcoreapp3.1\ENTIDADES.pdb
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.AssemblyInfo.cs
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.dll
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.pdb
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\ENTIDADES\obj\Debug\netcoreapp3.1\ENTIDADES.csproj.AssemblyReference.cache

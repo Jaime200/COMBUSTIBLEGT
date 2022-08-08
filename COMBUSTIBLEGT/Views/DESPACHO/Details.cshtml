@@ -1,0 +1,54 @@
+﻿@model ENTIDADES.DESPACHO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DESPACHO</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CANTIDAD_GALONES)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CANTIDAD_GALONES)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PRECIO_GALON)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PRECIO_GALON)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FECHA_DESPACHO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FECHA_DESPACHO)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VEHICULO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VEHICULO.PLACA)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BOMBA)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BOMBA.DESCRIPCION)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TIPO_COMBUSTIBLE)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TIPO_COMBUSTIBLE.DESCRIPCION)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID_DESPACHO">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

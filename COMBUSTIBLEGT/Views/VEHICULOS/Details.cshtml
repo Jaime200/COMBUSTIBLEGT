@@ -1,0 +1,46 @@
+﻿@model ENTIDADES.VEHICULO
+
+@{
+    ViewData["Title"] = "Detalle";
+}
+
+<h1>Detalle</h1>
+
+<div>
+    <h4>Vehiculo</h4>
+    <hr />
+    <div class="form-group">
+        <a class="btn btn-outline-primary" asp-action="Index"> <i class="fas fa-arrow-alt-circle-left"></i> Regresar</a>
+        <a class="btn btn-outline-info" asp-action="Edit" asp-route-id="@Model.PLACA">  <i class="fas fa-edit"></i> Editar</a>
+    </div>
+    <hr />
+    <dl class="row">
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PLACA)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PLACA)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ANIO)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ANIO)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MODELO)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MODELO)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ESTADO)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ESTADO)
+        </dd>
+    </dl>
+</div>
+

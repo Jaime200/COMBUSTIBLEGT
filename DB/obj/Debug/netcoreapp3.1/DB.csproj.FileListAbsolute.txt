@@ -1,0 +1,16 @@
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\DB.deps.json
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\DB.runtimeconfig.json
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\DB.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\DB.dll
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\DB.pdb
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\ENTIDADES.dll
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\bin\Debug\netcoreapp3.1\ENTIDADES.pdb
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.AssemblyInfo.cs
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.csproj.CopyComplete
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.dll
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.pdb
+C:\Users\DELL\source\repos\COMBUSTIBLEGT\DB\obj\Debug\netcoreapp3.1\DB.genruntimeconfig.cache

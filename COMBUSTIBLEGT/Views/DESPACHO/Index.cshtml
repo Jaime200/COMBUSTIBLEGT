@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ENTIDADES.DESPACHO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CANTIDAD_GALONES)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PRECIO_GALON)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FECHA_DESPACHO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VEHICULO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BOMBA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TIPO_COMBUSTIBLE)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CANTIDAD_GALONES)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PRECIO_GALON)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FECHA_DESPACHO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VEHICULO.PLACA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BOMBA.DESCRIPCION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TIPO_COMBUSTIBLE.DESCRIPCION)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID_DESPACHO">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID_DESPACHO">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID_DESPACHO">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

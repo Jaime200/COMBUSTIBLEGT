@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ENTIDADES.TIPO_COMBUSTIBLE>
+
+@{
+    ViewData["Title"] = "Mantenimiento de Combustibles";
+}
+
+<h1>Mantenimiento de Combustibles</h1>
+
+<p>
+
+    
+    <a class="btn btn-primary" asp-action="Create" role="button"> <i class="fas fa-plus"></i> Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DESCRIPCION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ESTADO)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESCRIPCION)
+            </td>
+            <td>
+                @if (item.ESTADO == "A")
+                {
+                    <i class="fas fa-circle" style="color:green" title="Activo"></i>
+                }
+                else
+                {
+                    <i class="fas fa-circle" style="color:red" title="Inactivo"></i>
+                }
+            </td>
+            <td>
+                
+                <a class="btn btn-outline-info" asp-action="Edit" asp-route-id="@item.ID_TIPO_COMBUSTIBLE"> <i class="fas fa-edit"></i> Editar</a>
+                <a  class="btn btn-outline-dark" asp-action="Details" asp-route-id="@item.ID_TIPO_COMBUSTIBLE"> <i class="fas fa-info"></i> Detalles</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

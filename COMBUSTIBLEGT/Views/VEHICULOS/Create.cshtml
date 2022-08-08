@@ -1,0 +1,47 @@
+﻿@model ENTIDADES.VEHICULO
+
+@{
+    ViewData["Title"] = "Nuevo Vehiculo";
+}
+
+<h1>Nuevo</h1>
+
+<h4>Vehiculo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <a class="btn btn-outline-primary" asp-action="Index"> <i class="fas fa-arrow-alt-circle-left"></i> Regresar</a>
+                <input type="submit" value="Guardar" class="btn btn-primary">
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PLACA" class="control-label"></label>
+                <input asp-for="PLACA" class="form-control" />
+                <span asp-validation-for="PLACA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ANIO" class="control-label"></label>
+                <input asp-for="ANIO" class="form-control" />
+                <span asp-validation-for="ANIO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MODELO" class="control-label"></label>
+                <input asp-for="MODELO" class="form-control" />
+                <span asp-validation-for="MODELO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ESTADO" class="control-label"></label>
+                <select asp-for="ESTADO" name="ESTADO" class="form-control" asp-items="@ViewBag.ESTADOS"></select>
+                <span asp-validation-for="ESTADO" class="text-danger"></span>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
